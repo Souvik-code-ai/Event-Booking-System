@@ -3,17 +3,23 @@
 import './App.css'
 import HomePage from './user/Home'
 import './index.css'
-import UserRouter from './routes/userRoutes'
+import userRouter from './routes/userRoutes'
+import organizerRouter from './routes/organizerRoutes'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { compileAst } from 'tailwindcss'
 
-function App() {
+function App() 
   // const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <UserRouter />
-
-    </>
+{
+  const router=createBrowserRouter([
+    ...userRouter,
+    ...organizerRouter
+  ]);
+  return(
+    <div>
+      <RouterProvider router={router}/>
+    </div>
   )
 }
 
-export default App
+export default App;

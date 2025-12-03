@@ -8,7 +8,7 @@ function HomePage() {
                     marginLeft:"1282px",marginBottom:"280px",paddingLeft:"20px"}}>
                     <div style={{ display: "inline-block",paddingLeft:"20px" ,paddingTop:"18px"}}>Links</div>
                     <div style={{ display: "inline-block",paddingLeft:"20px",paddingTop:"18px"}}>Services</div>
-                    <div style={{ display: "inline-block",paddingLeft:"20px" ,paddingTop:"18px" }}><Link to="/signin">Sign In</Link></div>
+                    <div style={{ display: "inline-block",paddingLeft:"20px" ,paddingTop:"18px" }}><Link to="/user/signin">Sign In</Link></div>
                 </div>
             </div>
             <div
