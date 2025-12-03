@@ -11,7 +11,7 @@ function SignInOrganizer() {
     }
     return (
         <div className="flex flex-row justify-center">
-            <div className="h-[98vh] w-[500px] rounded-tl-2xl rounded-bl-2xl bg-cover shadow-xl shadow-blue-400 inline-block" style={{backgroundImage:`url("/public/pexels-photosbycollis-3220090.jpg")`}}></div>
+            <div className="h-[98vh] w-[500px] rounded-tl-2xl rounded-bl-2xl bg-cover shadow-xl shadow-blue-400 inline-block" style={{backgroundImage:`url("/pexels-photosbycollis-3220090.jpg")`}}></div>
             
             <div className="bg-gray-100 h-[98vh] w-[500px] text-center rounded-tr-2xl rounded-br-2xl shadow-xl shadow-blue-400 inline-block ">
                 <br/>
