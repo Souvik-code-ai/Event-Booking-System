@@ -59,8 +59,8 @@ function SignInOrganizer() {
                     <input type="checkbox" id="rememberBox"/>
                     <label htmlFor="rememberBox">Remember me</label><br/>
                     {/* <p>Forgot password?</p> */}
-                    <button onClick={handleSubmit(onSubmit)}
-                        className="rounded-2xl bg-green-700 h-[50px] w-[300px] hover:bg-gray-500 text-gray-200 shadow-2xl shadow-blue-400">Sign In</button><br/><br/>
+                    <Link ><button onClick={handleSubmit(onSubmit)}
+                        className="rounded-2xl bg-green-700 h-[50px] w-[300px] hover:bg-gray-500 text-gray-200 shadow-2xl shadow-blue-400">Sign In</button></Link><br/><br/>
                         <p className="text-gray-500 text-sm">....................OR.................</p><br/>
                     <div >
                         <Link to="https://share.google/RKgOOnCZtqIRYcqPR" target="__main__"><div id="google" className="h-[50px] w-[50px] rounded-3xl bg-contain bg-no-repeat inline-block px-8" style={{backgroundImage:`url("/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png")`}}></div></Link>
