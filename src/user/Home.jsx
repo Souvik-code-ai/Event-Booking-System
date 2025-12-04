@@ -7,8 +7,8 @@ function HomePage() {
                 <div style={{display:"inline-block",backgroundColor:"white",height:"100%",width:"250px",
                     marginLeft:"1282px",marginBottom:"280px",paddingLeft:"20px"}}>
                     <div style={{ display: "inline-block",paddingLeft:"20px" ,paddingTop:"18px"}}>Links</div>
-                    <div style={{ display: "inline-block",paddingLeft:"20px",paddingTop:"18px"}}>Services</div>
                     <div style={{ display: "inline-block",paddingLeft:"20px" ,paddingTop:"18px" }}><Link to="/organizer/signin">Sign In</Link></div>
+                    <div style={{ display: "inline-block",paddingLeft:"20px",paddingTop:"18px"}}>Services</div>
                 </div>
             </div>
             <div

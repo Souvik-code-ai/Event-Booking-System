@@ -63,6 +63,7 @@ function SignInOrganizer() {
                         className="rounded-2xl bg-green-700 h-[50px] w-[300px] hover:bg-gray-500 text-gray-200 shadow-2xl shadow-blue-400">Sign In</button></Link><br/><br/>
                         <p className="text-gray-500 text-sm">....................OR.................</p><br/>
                     <div >
+                        <p className=" text-sm">Sign in with</p>
                         <Link to="https://share.google/RKgOOnCZtqIRYcqPR" target="__main__"><div id="google" className="h-[50px] w-[50px] rounded-3xl bg-contain bg-no-repeat inline-block px-8" style={{backgroundImage:`url("/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png")`}}></div></Link>
                         <Link to=""><div id="facebook"  className="h-[50px] w-[50px] rounded-3xl inline-block px-8 bg-contain bg-no-repeat"  style={{backgroundImage:`url("/fb.png")`}} target="__main__"></div></Link>
                         <Link to="https://www.instagram.com/accounts/login/?hl=en" target="__main__"><div id="instagram"  className="h-[50px] w-[50px] rounded-3xl inline-block px-8 bg-contain bg-no-repeat"  style={{backgroundImage:`url("/insta.avif")`}}></div></Link>
